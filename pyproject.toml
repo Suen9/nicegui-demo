@@ -1,0 +1,28 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Suen-9",email = "Suen-9@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ex4nicegui (>=0.8.6,<0.9.0)",
+    "nicegui (>=2.12.0,<3.0.0)",
+    "sqlalchemy[asyncio] (>=2.0.38,<3.0.0)",
+    "aiosqlite (>=0.21.0,<0.22.0)",
+    "fastapi (>=0.115.11,<0.116.0)",
+    "pathlib (>=1.0.1,<2.0.0)",
+    "importlib (>=1.0.4,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0" 
+
